@@ -1,5 +1,7 @@
 import { createContext } from 'react';
 
-const InstagramContext = createContext();
+const defaultValue = {}
+
+const InstagramContext = createContext(defaultValue);
 
 export default InstagramContext;
